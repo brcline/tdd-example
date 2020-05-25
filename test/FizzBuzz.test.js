@@ -10,7 +10,7 @@ const FizzBuzz = require('.././FizzBuzz')
  */
 describe('Testing Fizzbuz - one number at a time', () => {
   it('should return a 1 when 1 is passed in', done => {
-    // expect comes from chai.
+    // expect comes from chai, it's the same as doing an assert. :)
     expect(FizzBuzz(1)).to.equal(1)
     done()
   })

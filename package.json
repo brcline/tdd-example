@@ -1,0 +1,16 @@
+{
+  "name": "tdd-example",
+  "version": "1.0.0",
+  "description": "A project showcasing how to do test driven development",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout 0 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1"
+  }
+}
